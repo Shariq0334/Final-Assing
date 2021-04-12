@@ -1,0 +1,95 @@
+
+.list > a {
+    font-size: 20px !important;
+    color: black;
+
+}
+.active {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.heading {
+    word-spacing: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.para {
+    font-size: 22px;
+}
+.head2{
+    font-size: 30px;
+}
+
+.list > li {
+
+    padding: 15px;
+
+}
+.list {
+    border: none Important!;
+}
+.flexx {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.flu {
+    background-color: rgb(236, 245, 238);
+}
+
+.ul-head {
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    padding-bottom: 10px;
+    
+    
+
+}
+.ul-head > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.ul-item{
+    font-size: 25px;
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.ul-item > a {
+    text-decoration: none;
+    color: rgb(49, 44, 44);
+}
+
+@media only screen and (max-width: 1200px)  { 
+    .img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 900px)  { 
+    .img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px)  { 
+    .img {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 600px)  { 
+    .img {
+        width: 450px;
+    }
+    .burger {
+        width: 400px;
+    }
+}
+
+
